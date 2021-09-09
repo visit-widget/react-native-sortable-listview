@@ -166,7 +166,7 @@ class SortableListView extends React.Component {
         dy: this.state.pan.y,
       },
     ],
-     { useNativeDriver: true },
+     { useNativeDriver: false },
     )
 
     this.moved = false
